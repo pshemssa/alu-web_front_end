@@ -515,3 +515,12 @@ ul.row {
 ul.footer {
     text-align: right;
 }
+.row :after{
+    content:none;
+    display: table;
+    float:none;
+}
+[class^="col-"] {
+    float: left;
+    padding:0.5rem;
+  }
