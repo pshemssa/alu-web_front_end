@@ -478,8 +478,8 @@
     font-family:var(--nav-item-font-family);
      font-weight:var(--nav-item-font-weight);
      font-size:var(--nav-item-font-size);
-     text-spacing:var(--nav-item-letter-spacing);
-     dispay:var(--nav-item-display);
+     letter-spacing:var(--nav-item-letter-spacing);
+     display: var(--nav-item-display);
      margin:var(--nav-item-margin);
   }
   .nav .nav-link{
