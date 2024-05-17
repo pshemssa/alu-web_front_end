@@ -10,9 +10,11 @@ body{
     line-height:var(--line-height-base);
 }
 
-a[href]
-    :not([href=""]) {
-    }
+a[href]{
+    color:var(--text-color);
+    text-decoration:none;
+}
+
     a[href]:visited {
             text-decoration: italic;
         }
@@ -22,9 +24,7 @@ a[href]
             a[href]:active {
                     background-color: var(--color-light-grey);
                 }
-    color:var(--text-color);
-    text-decoration:none;
-}
+  
 .visually-hidden{
     display:none;
 }
