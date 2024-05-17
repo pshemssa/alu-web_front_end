@@ -14,11 +14,11 @@ a{
     color:var(--text-color);
     text-decoration:none;
 }
-a:link{
+a[href]:link{
 
 }
     a:visited {
-            text-decoration: italic;
+            font-style: italic;
         }
         a:hover {
                 text-decoration: underline;
