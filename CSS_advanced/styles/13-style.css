@@ -10,16 +10,16 @@ body{
     line-height:var(--line-height-base);
 }
 
-a
+a[href]
     :not([href=""]) {
     }
-        :visited {
+    a[href]:visited {
             text-decoration: italic;
         }
-            :hover {
+        a[href]:hover {
                 text-decoration: underline;
             }
-                :active {
+            a[href]:active {
                     background-color: var(--color-light-grey);
                 }
     color:var(--text-color);
