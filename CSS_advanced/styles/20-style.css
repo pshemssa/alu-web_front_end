@@ -508,15 +508,16 @@ ul.row {
     padding:0.5rem;
 }
 .footer-copyright {
-    margin:none;
+    margin:0;
     font-size:var(--font-size-small);
     color:var(--text-color);
 }
-ul.footer {
+.footer ul {
     text-align: right;
-}
-.row::after{
-    content:none;
-    display: table;
-    float:none;
+  }
+    .row::after {
+        content: ""; 
+        display: table; 
+        clear: both; 
+        width: 100%; 
 }
