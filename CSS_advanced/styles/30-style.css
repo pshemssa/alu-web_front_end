@@ -639,23 +639,23 @@
     position:relative;
     overflow:hidden;
   }
-  .card-work .card-image >image{
+  .card-work .card-image img{
  height:30rem;
 width:100%;
 vertical-align: bottom;
 --object-fit:cover;
   }
-  .card-inner  .card-work{
+  .card-work .card-inner{
     position:absolute;
     top:-0.1rem;
     right:-0.1rem;
     left:-0.1rem;
     z-index:1;
   }
-  .card-inner .card-work:hover{
+  .card-work .card-inner:hover{
 background-color:rgba(0, 0, 0, 0.7);
   }
-  .card-title  .card-work{
+  .card-work .card-title a{
     text-align:center;
     margin:0;
     opacity: initial;
@@ -665,7 +665,7 @@ background-color:rgba(0, 0, 0, 0.7);
     text-decoration: none;
     padding-top:45%;
   }
-  .card-title  .card-work a::after{
+  .card-work .card-title  a::after{
 position:absolute;
 top:0;
 right:0;
@@ -673,6 +673,6 @@ left:0;
 bottom:0;
 content:"";
   }
-  .card-title  .card-work:hover{
+  .card-work .card-title:hover{
 opacity:1;
   }
