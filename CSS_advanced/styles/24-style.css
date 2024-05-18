@@ -539,7 +539,7 @@ ul.footer {
     fill: var(--text-color);
   }
   .card-services .card-title {
-    margin-left:0;
+    margin:0;
   }
   .card-services a{
 display:block;
