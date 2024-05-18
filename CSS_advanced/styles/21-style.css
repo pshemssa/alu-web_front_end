@@ -499,13 +499,11 @@ ul.row {
 }
 .col-1-3 {
     width:none;
-    clear:both;
-    padding:none;
+    
 }
 .col-1-2 {
     width:none;
-    clear:both;
-    padding:none;
+    
 }
 .footer-copyright {
     margin:none;
