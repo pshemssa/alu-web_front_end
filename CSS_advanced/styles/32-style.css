@@ -43,7 +43,8 @@
                     text-decoration:var(--button-hover-text-decoration);
                     background-color: var(--button-hover-background);
                     transition-duration: var(--transition-duration);
-                    transition-property:var(--background-color);
+                    color:var(--transition-duration) var(--transition-cubic-bezier);
+                    background-color:var(--transition-duration) var(--transition-cubic-bezier);
                 }
                 [data-section-theme="dark"]
                 {
