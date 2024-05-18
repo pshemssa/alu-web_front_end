@@ -581,7 +581,7 @@ text-decoration: none;
     }
         .card-testimonial .card-avatar{
             border-radius:50%;
-       width:10rem,
+       width:10rem;
        height:10rem;
         }
 
@@ -591,7 +591,7 @@ text-decoration: none;
             color:var(--color-primary)
         }
        .section-hero{
-        background-size:0.5rem 0.5rem;
+        background-size:0 1rem;
         width:90rem;
         height:auto;
        } 
