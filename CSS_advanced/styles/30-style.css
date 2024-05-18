@@ -658,9 +658,11 @@ background-color:rgba(0, 0, 0, 0.7);
   .card-work .card-title{
     text-align:center;
     margin:0;
-    opacity: initial;
+    opacity:0;
     height:100%;
     position:relative;
+  }
+    .card-work .card-title a{
     display:block;
     text-decoration: none;
     padding-top:45%;
@@ -673,6 +675,6 @@ left:0;
 bottom:0;
 content:"";
   }
-  .card-work .card-title:hover{
+  .card-work:hover .card-title{
 opacity:1;
   }
