@@ -591,7 +591,7 @@ text-decoration: none;
             color:var(--color-primary)
         }
        .section-hero{
-        background-size: 2px;
+        background-size:50% 50%;
         width:90rem;
         height:auto;
        } 
@@ -599,6 +599,6 @@ text-decoration: none;
         margin-bottom:5rem;
        }
        .section-hero .section-inner{
-      padding-top:10rem 40rem 2rem 0;
+      padding:10rem 40rem 2rem 0;
        }
 

@@ -604,6 +604,6 @@ text-decoration: none;
          .header-logo a{
        display:var(--header-logo-link-display);
        position:var(--header-logo-link-position);
-       background-position-y:var(--header-logo-link-top)
-       bacground-position-x:var(--header-logo-link-left);
+       background-position-y:var(--header-logo-link-top);
+       background-position-x:var(--header-logo-link-left);
          }
