@@ -1,16 +1,19 @@
+$background-color:#6D6D6D;
+$text-color:#3D3D3D;
+
 body{
-    color:#3D3D3D;
-    background-color:#6D6D6D;
-    padding:0;
-    margin:0;
+    color:$text-color;
+    background-color:$background-color;
+  
  }
+ $margin:10px;
  body p{
-    margin:10px;
+    margin:$margin;
  }
  $text-color:#FF0000;
  body .red{
     color:$text-color;
  }
  p{
-    color:#3D3D3D;
+    color:$text-color;
  }
