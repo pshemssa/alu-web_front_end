@@ -7,8 +7,9 @@ body{
  body p{
     margin:10px;
  }
+ $text-color:#FF0000;
  body .red{
-    color:#FF0000;
+    color:$text-color;
  }
  p{
     color:#3D3D3D;

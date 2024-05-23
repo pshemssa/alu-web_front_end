@@ -1,11 +1,15 @@
+$padding:0;
+$margin:0;
+
 body{
-    $text-color:#3D3D3D;
-    $background-color:#6D6D6D;
-    $padding:0;
-    $margin:0;
+    color:$text-color;
+    background-color:$background-color;
+    padding:$padding;
+   margin: $margin;
  }
+ $margin:10px;
  body p{
-    $margin:10px;
+    margin:$margin;
  }
  p{
     $text-color:#3D3D3D;
