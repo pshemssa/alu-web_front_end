@@ -1,14 +1,9 @@
 
-@use "2-color_variables";
-$padding:0;
-$margin:0;
-
-body{
-  padding:$padding;
-   margin:$margin;
- }
- $margin:10px;
- body p{
-    margin:$margin;
- }
- 
+/* using nested selectors */
+body {
+  margin: 0px;
+  padding: 0px;
+  p {
+      margin: 10px;
+  }
+}
