@@ -1,12 +1,8 @@
-$text-color: #3D3D3D;
-$red-color: #FF0000;
-
 body {
-    // Apply the text color to all elements inside body
-    color: $text-color;
-  
-    // Apply the red text color to any .red elements that are the first children of the body
-    > .red:first-child {
-      color: $red-color;
-    }
+  color: #3d3d3d;
+
+  > .red {
+      color: #FF0000; 
   }
+  
+}

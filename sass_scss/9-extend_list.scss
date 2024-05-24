@@ -1,9 +1,15 @@
-.info{
-    font-size:12px;
+// Extended List SCSS
+
+.info {
+    font-size: 12px;
 }
-.info .success{
-    color:#00FF00;
+
+.success {
+    @extend .info;
+    color: #00FF00;
 }
-.info .warning{
-    color:#FF0000;
+
+.warning {
+    @extend .info;
+    color: #FF0000;
 }
