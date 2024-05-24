@@ -304,6 +304,12 @@
   }
   
   /*** 3. SECTION ***/
+  .section-latest-news .row{
+    flex-direction:row-reverse;
+  }
+  .section-services .row{
+    flex-wrap:wrap;
+  }
   
   /* Section (all styles)
       ============================= */
@@ -370,13 +376,9 @@
     padding: 10rem 40rem 2rem 0;
   }
   /* Section Latest news ============================= */
-  .row .section-latest-news{
-    flex-direction:row-reverse;
-  }
+  
   /* Section SERVICES ============================= */
-  .row .section-services{
-    flex-wrap:wrap;
-  }
+
   /*** 4. CARD ***/
   
   /* Card (all styles)
