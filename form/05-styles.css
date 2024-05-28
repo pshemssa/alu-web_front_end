@@ -713,7 +713,10 @@ transition: .3s;
 }
 /* Form field
 ============================= */
-.form-field-container {
+.form-field-container{
+    position: relative;
+}
+.form-field-icon{
     font-style: normal;
 }
 /* Form help
