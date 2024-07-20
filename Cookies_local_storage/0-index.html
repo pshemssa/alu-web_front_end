@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>cookies</title>
+
+    </head>
+    <body>
+        <h3>Login to the website</h3>
+        <form>
+            <input id="firstname" placeholder="Firstname">
+            <input id="email" placeholder="Email">
+            <button click="setCookies()">Log me in</button>
+            <h3>Show cookies</h3>
+            <button click="showCookies()">Show the cookies</button>
+        </form>
+    <script>
+        function setCookies() {
+            var firstname = document.getElementById('firstname').value;
+            var email = document.getElementById('email').value;
+
+            // Set cookies with a 7-day expiration
+
+            document.cookie = $firstname;
+            document.cookie = $email;
+        }
+        
+
+        function showCookies() {
+            var firstname = getCookie('firstname');
+            var email = getCookie('email');
+
+            var p = document.createElement('p');
+            p.innerHTML = 'Cookies: Firstname=' + (firstname || 'Not set') + ', Email=' + (email || 'Not set');
+            document.body.appendChild(p);
+        }
+    </script>
+        </body>
+</html>
